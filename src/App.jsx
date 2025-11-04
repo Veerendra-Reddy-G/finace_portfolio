@@ -144,8 +144,8 @@ const App = () => {
                   }}
                 >
                   <Tab 
-                    // icon={<Analytics className="mr-2" />} 
-                    // iconPosition="start"
+                    icon={<Analytics className="mr-2" />} 
+                    iconPosition="start"
                     label={
                       <Box className="flex items-center">
                         Portfolio Dashboard

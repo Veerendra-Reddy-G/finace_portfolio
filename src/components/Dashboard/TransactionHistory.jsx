@@ -70,12 +70,12 @@ const TransactionHistory = () => {
 
   return (
     <Paper className="rounded-xl shadow-lg">
-      <Box className="p-4 border-b">
+      <Box className="p-4 border-b" style={{marginLeft:"10px", marginTop:"10px"}}>
         <Typography variant="h6" className="font-bold mb-4">
           Transaction History
         </Typography>
         
-        <Box className="flex flex-col md:flex-row gap-4 mb-4">
+        <Box className="flex flex-col md:flex-row gap-4 mb-50">
           <TextField
             placeholder="Search transactions..."
             value={searchTerm}
@@ -91,7 +91,7 @@ const TransactionHistory = () => {
             }}
           />
           
-          <FormControl size="small" className="w-full md:w-40">
+          <FormControl size="small" style={{marginLeft:"10px", marginTop:"10px"}} className="w-full md:w-40">
             <InputLabel>Type</InputLabel>
             <Select
               value={typeFilter}
@@ -104,7 +104,7 @@ const TransactionHistory = () => {
             </Select>
           </FormControl>
 
-          <FormControl size="small" className="w-full md:w-40">
+          <FormControl size="small"  style={{marginLeft:"10px", marginTop:"10px"}} className="w-full md:w-40">
             <InputLabel>Date</InputLabel>
             <Select
               value={dateFilter}

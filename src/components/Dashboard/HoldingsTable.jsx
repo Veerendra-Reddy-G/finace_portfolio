@@ -79,7 +79,9 @@ const HoldingsTable = ({ data }) => {
 
   return (
     <Paper className="rounded-xl shadow-lg">
-      <Box className="p-4 border-b">
+      <Box className="p-4 border-b" 
+style={{marginLeft:"10px", marginTop:"10px"}}
+>
         <Typography variant="h6" className="font-bold mb-4">
           Portfolio Holdings
         </Typography>

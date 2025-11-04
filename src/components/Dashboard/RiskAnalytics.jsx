@@ -58,9 +58,10 @@ const RiskAnalytics = ({ data }) => {
 
   return (
     <Paper className="p-6 rounded-xl shadow-lg">
-      <Typography variant="h6" className="font-bold mb-4 flex items-center">
-        <Warning className="mr-2 text-warning-600" />
+      <Typography variant="h6" className="font-bold mb-4 flex items-center">  
+      <div  style={{marginLeft:"10px", marginTop:"10px"}} >   
         Risk Analytics
+        </div>
       </Typography>
 
       <Grid container spacing={3}>
