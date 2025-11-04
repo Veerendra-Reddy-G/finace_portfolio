@@ -91,7 +91,7 @@ const TransactionHistory = () => {
             }}
           />
           
-          <FormControl size="small" style={{marginLeft:"10px", marginTop:"10px"}} className="w-full md:w-40">
+          <FormControl size="small" style={{marginLeft:"10px"}} className="w-full md:w-40">
             <InputLabel>Type</InputLabel>
             <Select
               value={typeFilter}
@@ -104,7 +104,7 @@ const TransactionHistory = () => {
             </Select>
           </FormControl>
 
-          <FormControl size="small"  style={{marginLeft:"10px", marginTop:"10px"}} className="w-full md:w-40">
+          <FormControl size="small"  style={{marginLeft:"10px"}} className="w-full md:w-40">
             <InputLabel>Date</InputLabel>
             <Select
               value={dateFilter}
